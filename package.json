@@ -1,0 +1,19 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "Namaste React Live Course",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhumika-aga/namaste-react.git"
+  },
+  "author": "bhumika-aga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhumika-aga/namaste-react/issues"
+  },
+  "homepage": "https://github.com/bhumika-aga/namaste-react#readme"
+}
