@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bhumika-aga/namaste-react/issues"
   },
-  "homepage": "https://github.com/bhumika-aga/namaste-react#readme"
+  "homepage": "https://github.com/bhumika-aga/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
 }
