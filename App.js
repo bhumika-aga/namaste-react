@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 //Gives the output of the json object of the element heading1 using JSX
 //React Element
 const heading = (
-  <h1 id="title" key="header">
+  <h1 id="title" key="headerZ">
     Namaste React
   </h1>
 );
@@ -13,7 +13,7 @@ const heading = (
 //Example 1 (Most Used)
 const HeaderComponent1 = () => (
   <div>
-    <h1 id="title" key="header">
+    <h1 id="title" key="headerY">
       Namaste React!
     </h1>
     <h2>This is the new heading!</h2>
@@ -42,7 +42,7 @@ const HeaderComponent = () => {
 const HeaderComponent2 = function () {
   return (
     <div>
-      <h1 id="title" key="header">
+      <h1 id="title" key="headerX">
         Namaste React!
       </h1>
       <h2>This is the novel heading!</h2>
