@@ -9,10 +9,43 @@ const heading = (
   </h1>
 );
 
+const styleObj = {
+  backgroundColor: "red",
+};
+
+//Config Driven UI
+const config = [
+  {
+    type: "carousel",
+    cards: [
+      {
+        offerName: "50% Off",
+      },
+      {
+        offerName: "No Delivery Charge",
+      },
+    ],
+  },
+  {
+    type: "restaurants",
+    cards: [
+      {
+        name: "Burger King",
+        image:
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/7bb739d7f6ae8b4ce8ed590765dffd2f",
+        cuisines: ["Burgers", "Bevarages", "American"],
+        rating: "4.2 stars",
+      },
+    ],
+  },
+];
+
 //React Functional Component
 //Example 1 (Most Used)
 const HeaderComponent1 = () => (
-  <div>
+  //Inline style using React
+  <div style={styleObj}>
+    {config}
     <h1 id="title" key="headerY">
       Namaste React!
     </h1>
