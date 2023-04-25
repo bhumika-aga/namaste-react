@@ -1,4 +1,5 @@
 import { config } from "../config";
+import { ConfigCard } from "./ConfigCard";
 
 const styleObj = {
   backgroundColor: "red",

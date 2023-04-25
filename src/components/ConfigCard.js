@@ -1,4 +1,4 @@
-const ConfigCard = ({ name, deliveryTime }) => {
+export const ConfigCard = ({ name, deliveryTime }) => {
   return (
     <div className="card">
       <h4>{name}</h4>
@@ -6,5 +6,3 @@ const ConfigCard = ({ name, deliveryTime }) => {
     </div>
   );
 };
-
-export default ConfigCard;

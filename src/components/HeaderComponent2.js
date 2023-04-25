@@ -28,7 +28,7 @@ export const HeaderComponent2 = function () {
             setSearchText(e.target.value);
           }}
         ></input>
-        <button className="search-btn">Search - {searchText}</button>
+        <button className="search-btn">Search</button>
       </div>
       <div>
         <h1 id="title" key="headerX">
